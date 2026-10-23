@@ -8,6 +8,12 @@ A lightweight, high-performance terminal utility suite written in Go providing f
 yay -S zipup-src
 ```
 
+
+If using paru:
+```bash
+paru -S zipup-src
+```
+
 ## Usage
 
 ### Zipup
