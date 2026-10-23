@@ -3,17 +3,20 @@
 A lightweight, high-performance terminal utility suite written in Go providing fast `zipup` and `unpack` syntax shortcuts.
 
 ## Installation (Arch Linux)
-
+Note, account registration is temporarily closed, so for now please do the manual install.
 ```bash
 yay -S zipup-src
 ```
-
-
 If using paru:
 ```bash
 paru -S zipup-src
 ```
-
+## Manual Install
+```bash
+https://github.com/digitcoder22/zipup-src.git
+cd zipup-src
+makepkg -si
+```
 ## Usage
 
 ### Zipup
