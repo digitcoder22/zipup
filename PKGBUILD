@@ -3,18 +3,17 @@ pkgname=zipup
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="A lightweight terminal utility suite providing fast zipup and unpack shortcuts"
-arch=('x86_64')
-url="https://github.com/digitcoder22/zipup.git"
+arch=('x86_64' 'aarch64')
+url="https://github.com/digitcoder22/zipup"
 license=('MIT')
-provides=('zipup' 'unpack')
-conflicts=('zipup' 'unpack')
-depends=('glibc' 'git')
-makedepends=('go')
+provides=('unpack')
+conflicts=('unpack')
+depends=('glibc')
+makedepends=('go' 'git')
 optdepends=('7zip: required for enabling .7z archive operations')
 
-source=("git+https://github.com/digitcoder22/zipup.git#tag=v${pkgver}")
+source=("git+${url}.git#tag=v${pkgver}")
 sha256sums=('SKIP')
-
 
 build() {
     cd "${srcdir}/${pkgname}"
