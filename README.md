@@ -1,5 +1,4 @@
-# zipup-suite
-
+# zipup-src
 A lightweight, high-performance terminal utility suite written in Go providing fast `zipup` and `unpack` syntax shortcuts.
 
 ## Installation (Arch Linux)
@@ -31,3 +30,4 @@ Extract any supported archive automatically to your current directory or a custo
 ```bash
 unpack [archive_file] <optional_destination>
 ```
+*Supported formats: `zip`, `7z`, `tar.gz`, `tar.xz`*
