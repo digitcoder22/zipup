@@ -21,7 +21,7 @@ func main() {
 		runUnpack()
 	default:
 		if len(os.Args) < 2 {
-			fmt.Println("🧰 zipup-suite: invoke via 'zipup' or 'unpack' command symlinks.")
+			fmt.Println("zipup-suite: invoke via 'zipup' or 'unpack' command symlinks.")
 			os.Exit(1)
 		}
 		
