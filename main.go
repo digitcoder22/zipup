@@ -83,7 +83,7 @@ func runZipUp() {
 		_, err := exec.LookPath("7z")
 		if err != nil {
 			fmt.Println(":O error: '7z' command not found on your system.")
-			fmt.Println("Please install 'p7zip' using your package manager to use this format.")
+			fmt.Println("Please install '7zip' using your package manager to use this format.")
 			os.Exit(1)
 		}
 
